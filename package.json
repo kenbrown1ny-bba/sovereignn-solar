@@ -1,0 +1,33 @@
+{
+  "name": "sovereign-solar",
+  "version": "2.0.0",
+  "description": "AI Solar Sales Engine with customer memory and recursive workflow tracking",
+  "main": "dist/sovereign_recursive_loop_v2.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/sovereign_recursive_loop_v2.js",
+    "dev": "ts-node sovereign_recursive_loop_v2.ts",
+    "test": "ts-node test_recursive_loop.ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "solar",
+    "sales",
+    "ai",
+    "claude",
+    "crm",
+    "anthropic"
+  ],
+  "license": "MIT"
+}
