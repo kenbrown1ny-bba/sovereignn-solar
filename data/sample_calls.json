@@ -1,0 +1,443 @@
+[
+  {
+    "call_id": "1",
+    "agent_name": "David",
+    "customer_name": "Alice",
+    "date": "2026-04-08",
+    "duration_seconds": 1240,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "cost",
+        "raw_text": "It's just too expensive right now.",
+        "handled_successfully": true,
+        "handling_technique": "Financing breakdown with monthly savings comparison",
+        "timestamp_seconds": 420
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "2",
+    "agent_name": "David",
+    "customer_name": "Bob",
+    "date": "2026-04-08",
+    "duration_seconds": 1850,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "roof_concerns",
+        "raw_text": "My roof is older — I'm worried about damage.",
+        "handled_successfully": true,
+        "handling_technique": "Roof assessment walkthrough + warranty explanation",
+        "timestamp_seconds": 610
+      }
+    ],
+    "winning_moments": [
+      {
+        "description": "Customer visibly relaxed after roof warranty was explained",
+        "timestamp_seconds": 720,
+        "technique": "Warranty-first reframe"
+      }
+    ],
+    "notes": "Best roof-concern close on record this week. Maria should study this."
+  },
+  {
+    "call_id": "3",
+    "agent_name": "Maria",
+    "customer_name": "Carol",
+    "date": "2026-04-09",
+    "duration_seconds": 980,
+    "outcome": "not_interested",
+    "objections": [
+      {
+        "type": "roof_concerns",
+        "raw_text": "I don't think my roof can handle panels.",
+        "handled_successfully": false,
+        "handling_technique": null,
+        "timestamp_seconds": 340
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "4",
+    "agent_name": "John",
+    "customer_name": "Dan",
+    "date": "2026-04-09",
+    "duration_seconds": 1560,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "timing",
+        "raw_text": "I need to think about it a bit more.",
+        "handled_successfully": true,
+        "handling_technique": "ECHO-PR engagement: empathize, clarify hesitation, offer follow-up",
+        "timestamp_seconds": 890
+      }
+    ],
+    "winning_moments": [
+      {
+        "description": "John's discovery questions uncovered energy bill pain point early",
+        "timestamp_seconds": 180,
+        "technique": "Open-ended discovery: 'Walk me through a typical month of bills'"
+      }
+    ],
+    "notes": "Excellent discovery sequence — John leads on this technique."
+  },
+  {
+    "call_id": "5",
+    "agent_name": "David",
+    "customer_name": "Elena",
+    "date": "2026-04-09",
+    "duration_seconds": 1100,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "cost",
+        "raw_text": "The upfront cost is more than I budgeted.",
+        "handled_successfully": true,
+        "handling_technique": "Zero-down financing option presented with 25-year ROI chart",
+        "timestamp_seconds": 530
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "6",
+    "agent_name": "Maria",
+    "customer_name": "Frank",
+    "date": "2026-04-10",
+    "duration_seconds": 870,
+    "outcome": "callback_requested",
+    "objections": [
+      {
+        "type": "cost",
+        "raw_text": "I'm on a fixed income.",
+        "handled_successfully": false,
+        "handling_technique": null,
+        "timestamp_seconds": 290
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "7",
+    "agent_name": "John",
+    "customer_name": "Grace",
+    "date": "2026-04-10",
+    "duration_seconds": 1340,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "timing",
+        "raw_text": "Now isn't the right time for us.",
+        "handled_successfully": true,
+        "handling_technique": "Identified specific barrier; scheduled 2-week follow-up",
+        "timestamp_seconds": 760
+      },
+      {
+        "type": "cost",
+        "raw_text": "We'd need to see the numbers.",
+        "handled_successfully": true,
+        "handling_technique": "Live custom savings estimate with utility comparison",
+        "timestamp_seconds": 920
+      }
+    ],
+    "winning_moments": [
+      {
+        "description": "Double objection handled back-to-back without losing momentum",
+        "timestamp_seconds": 960,
+        "technique": "Objection stack: resolve first, bridge to second"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "call_id": "8",
+    "agent_name": "David",
+    "customer_name": "Ray",
+    "date": "2026-04-10",
+    "duration_seconds": 2010,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "cost",
+        "raw_text": "I can't afford this.",
+        "handled_successfully": true,
+        "handling_technique": "Financing breakdown: $0 down, $89/month vs $210 current bill",
+        "timestamp_seconds": 780
+      }
+    ],
+    "winning_moments": [
+      {
+        "description": "Cost objection closed decisively with financing breakdown",
+        "timestamp_seconds": 1020,
+        "technique": "Side-by-side monthly payment comparison"
+      }
+    ],
+    "notes": "Best cost-objection close this week — benchmark for team training."
+  },
+  {
+    "call_id": "9",
+    "agent_name": "Maria",
+    "customer_name": "Hannah",
+    "date": "2026-04-11",
+    "duration_seconds": 1120,
+    "outcome": "follow_up_scheduled",
+    "objections": [
+      {
+        "type": "spouse_decision",
+        "raw_text": "I need to check with my husband first.",
+        "handled_successfully": true,
+        "handling_technique": "Invited spouse to a joint follow-up call",
+        "timestamp_seconds": 630
+      },
+      {
+        "type": "roof_concerns",
+        "raw_text": "We had a leak last year.",
+        "handled_successfully": false,
+        "handling_technique": null,
+        "timestamp_seconds": 740
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "10",
+    "agent_name": "John",
+    "customer_name": "Ivan",
+    "date": "2026-04-11",
+    "duration_seconds": 1680,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "cost",
+        "raw_text": "Solar is expensive.",
+        "handled_successfully": true,
+        "handling_technique": "Tax credit + net metering walkthrough",
+        "timestamp_seconds": 410
+      }
+    ],
+    "winning_moments": [
+      {
+        "description": "Discovery revealed customer had $320/month summer bills — strong pain point",
+        "timestamp_seconds": 230,
+        "technique": "Seasonal bill question: 'What does your bill look like in July?'"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "call_id": "11",
+    "agent_name": "David",
+    "customer_name": "Julia",
+    "date": "2026-04-11",
+    "duration_seconds": 1390,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "cost",
+        "raw_text": "That's a lot of money.",
+        "handled_successfully": true,
+        "handling_technique": "Break into per-day cost: 'Less than a cup of coffee'",
+        "timestamp_seconds": 660
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "12",
+    "agent_name": "Maria",
+    "customer_name": "Kevin",
+    "date": "2026-04-12",
+    "duration_seconds": 760,
+    "outcome": "not_interested",
+    "objections": [
+      {
+        "type": "cost",
+        "raw_text": "Just too pricey.",
+        "handled_successfully": false,
+        "handling_technique": null,
+        "timestamp_seconds": 220
+      },
+      {
+        "type": "roof_concerns",
+        "raw_text": "My roof faces the wrong direction.",
+        "handled_successfully": false,
+        "handling_technique": null,
+        "timestamp_seconds": 380
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "13",
+    "agent_name": "John",
+    "customer_name": "Laura",
+    "date": "2026-04-12",
+    "duration_seconds": 1450,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "timing",
+        "raw_text": "We're thinking of moving in a couple of years.",
+        "handled_successfully": true,
+        "handling_technique": "Home value increase data + transferable lease option",
+        "timestamp_seconds": 590
+      }
+    ],
+    "winning_moments": [
+      {
+        "description": "John's discovery questions surfaced home-resale concern before it became a blocker",
+        "timestamp_seconds": 300,
+        "technique": "Future-planning question: 'Any big life changes on the horizon?'"
+      }
+    ],
+    "notes": "Discovery technique on display again — scheduling team session."
+  },
+  {
+    "call_id": "14",
+    "agent_name": "David",
+    "customer_name": "Mike",
+    "date": "2026-04-13",
+    "duration_seconds": 1180,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "cost",
+        "raw_text": "I want to shop around first.",
+        "handled_successfully": true,
+        "handling_technique": "Competitor comparison sheet + limited-time incentive",
+        "timestamp_seconds": 700
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "15",
+    "agent_name": "John",
+    "customer_name": "Nancy",
+    "date": "2026-04-13",
+    "duration_seconds": 1750,
+    "outcome": "follow_up_scheduled",
+    "objections": [
+      {
+        "type": "timing",
+        "raw_text": "I just need more time to think.",
+        "handled_successfully": true,
+        "handling_technique": "ECHO-PR: Empathize → Clarify blocker → Hand control → Offer → Reschedule",
+        "timestamp_seconds": 1120
+      }
+    ],
+    "winning_moments": [
+      {
+        "description": "'Think about it' objection converted to scheduled follow-up",
+        "timestamp_seconds": 1280,
+        "technique": "ECHO-PR engagement style"
+      }
+    ],
+    "notes": "Gold standard for handling timing/think-about-it objections."
+  },
+  {
+    "call_id": "16",
+    "agent_name": "Maria",
+    "customer_name": "Oscar",
+    "date": "2026-04-13",
+    "duration_seconds": 1030,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "cost",
+        "raw_text": "I expected it to be cheaper.",
+        "handled_successfully": true,
+        "handling_technique": "Anchor on utility bill savings over 20 years",
+        "timestamp_seconds": 480
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "17",
+    "agent_name": "David",
+    "customer_name": "Paula",
+    "date": "2026-04-14",
+    "duration_seconds": 1310,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "cost",
+        "raw_text": "The numbers still seem high.",
+        "handled_successfully": true,
+        "handling_technique": "Payment-per-day reframe + federal tax credit reminder",
+        "timestamp_seconds": 560
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "18",
+    "agent_name": "John",
+    "customer_name": "Quinn",
+    "date": "2026-04-14",
+    "duration_seconds": 1600,
+    "outcome": "closed",
+    "objections": [
+      {
+        "type": "timing",
+        "raw_text": "Maybe next year.",
+        "handled_successfully": true,
+        "handling_technique": "Incentive expiry urgency + energy-cost trajectory chart",
+        "timestamp_seconds": 840
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "19",
+    "agent_name": "Maria",
+    "customer_name": "Rachel",
+    "date": "2026-04-14",
+    "duration_seconds": 920,
+    "outcome": "callback_requested",
+    "objections": [
+      {
+        "type": "roof_concerns",
+        "raw_text": "My roof is only 5 years old — I don't want to risk it.",
+        "handled_successfully": false,
+        "handling_technique": null,
+        "timestamp_seconds": 390
+      }
+    ],
+    "winning_moments": [],
+    "notes": ""
+  },
+  {
+    "call_id": "24",
+    "agent_name": "John",
+    "customer_name": "Sam",
+    "date": "2026-04-12",
+    "duration_seconds": 1890,
+    "outcome": "closed",
+    "objections": [],
+    "winning_moments": [
+      {
+        "description": "Customer enthusiasm spike after energy efficiency discussion — no objections raised",
+        "timestamp_seconds": 960,
+        "technique": "Energy independence narrative with state incentive breakdown"
+      }
+    ],
+    "notes": "Rare no-objection close driven entirely by value framing."
+  }
+]
